@@ -1,0 +1,20 @@
+function questao5($numero,$numero2,$numero3,$numero4){
+
+$x1=$numero;
+$y=$numero2;
+  
+$x2=$numero3;
+$y2=$numero4;
+  
+$d=$x2-$x1;
+  
+  if($d>=10){
+      
+     echo "longe"; 
+    }
+  else{
+      echo "perto";
+    }
+}
+      
+ questao5(10,20,13,30); 

@@ -1,0 +1,17 @@
+function questao4($numero,$numero2,$numero3){
+
+
+if($numero<$numero2 && $numero2<$numero3 && $numero<$numero3){
+
+
+ echo "crescente"; 
+
+    }else{
+
+     echo "nao e crescente"; 
+
+    }  
+
+}
+questao4(10,15,30);
+
